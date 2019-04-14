@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div id="layout">
     <Menu :variant="menuVariant"></Menu>
-    <nuxt />
-    <Footer />
+    <div style="display: flex; flex-direction: column; align-items: stretch; min-height: 100%;">
+      <nuxt style="flex-grow: 1;" />
+      <Footer style="flex-shrink: 0;" />
+    </div>
   </div>
 </template>
 <script>
@@ -28,6 +30,13 @@
 
 </script>
 <style lang="less">
+
+html, body, #__nuxt, #__layout, #layout {
+  width: 100%;
+    height: 100%;
+
+}
+
   body {
     overflow-y: scroll;
   }

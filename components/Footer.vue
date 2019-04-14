@@ -2,21 +2,8 @@
   <div id="footer">
     <b-container>
       <b-row>
-        <b-col>
-          <div style="padding: 0 4rem;">
-            <img src="~/assets/logo.png" class="logo" style="opacity: .5; width: 100%">
-          </div>
 
-        </b-col>
-        <b-col>
-          <header>
-            Navigatie
-          </header>
-          Home<br>
-          Werkwijze<br>
-          Projecten<br>
-          Contact<br>
-        </b-col>
+
         <b-col>
           <header>
             Contactgegevens
@@ -32,7 +19,23 @@
           </header>
           KVK 59102535<br>
           BTW 1843276532958<br>
+          Nederland<br>
           Eindhoven
+        </b-col>
+        <b-col>
+          <header>
+            Navigatie
+          </header>
+          Home<br>
+          Werkwijze<br>
+          Projecten<br>
+          Contact<br>
+        </b-col>
+        <b-col>
+          <div style="padding: 0 4rem;">
+            <img src="~/assets/logo.png" class="logo" style="opacity: .5; width: 100%">
+          </div>
+
         </b-col>
       </b-row>
       <div class="subfooter">

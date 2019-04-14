@@ -15,12 +15,18 @@
               </stick-transition>
               <div class="text align-self-center">
                   <div class="slogan">Vastgoedontwikkeling</div>
-                  <div class="subslogan">De verbindende factor tussen zorg en vastgoed</div>
+                  <div class="subslogan">De verbindende factor tussen <b>zorg</b> en <b>vastgoed</b></div>
                   <div class="call-to-action" hidden>
                     <b-button variant="success" size="lg">Learn more</b-button>
                   </div>
               </div>
             </b-container>
+            <div style="position: absolute; bottom: 0; width: 100%;">
+              <section id="section05" class="demo">
+                <a href="#section06"><span></span></a>
+              </section>
+            </div>
+
           </div>
 
 
@@ -69,6 +75,7 @@
                 if (this.isScrolling && !isScrollingNext()) {
                     this.isScrolling = false;
 
+                    if (this.$refs.stickTransition)
                     this.$refs.stickTransition.reset();
 
 
@@ -77,6 +84,7 @@
 
             startTransition() {
 
+                if (this.$refs.stickTransition)
                 this.$refs.stickTransition.doEnter(
                     document.querySelector('#menu .logo')
                 );
@@ -213,4 +221,57 @@
         90% { transform: scale(0.75); opacity: 1 }
         100% { transform: scale(1) }
     }
+
+
+
+
+    #section05 {
+      position: relative;
+    }
+    #section05 a {
+      padding-top: 70px;
+    }
+    #section05 a span {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+      margin-left: -12px;
+      border-left: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-animation: sdb05 1.5s infinite;
+      animation: sdb05 1.5s infinite;
+      box-sizing: border-box;
+    }
+    @-webkit-keyframes sdb05 {
+      0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+      }
+    }
+    @keyframes sdb05 {
+      0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+      }
+    }
+
+
 </style>

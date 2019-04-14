@@ -11,9 +11,9 @@
 
                 <b-navbar-nav>
 
-                    <b-nav-item to="/assistance/">Werkwijze</b-nav-item>
-                    <b-nav-item to="/content/">Projecten</b-nav-item>
-                    <b-nav-item to="/marketing/">Contact</b-nav-item>
+                    <b-nav-item to="/werkwijze">Werkwijze</b-nav-item>
+                    <b-nav-item to="/projecten">Projecten</b-nav-item>
+                    <b-nav-item to="/contact">Contact</b-nav-item>
                 </b-navbar-nav>
 
                 <b-navbar-nav class="ml-auto align-items-center">
@@ -59,7 +59,7 @@
 <style lang="less">
   #menu {
     &.solid {
-        transition: background-color .4s ease, box-shadow .4s ease;
+        transition:  box-shadow .4s ease; //background-color .4s ease,
         background-color: #fff - rgba(255, 255, 255, 1);
         box-shadow: 0 1px .5rem rgba(0,0,0,.15);
 
@@ -70,7 +70,7 @@
     }
     &.transparent {
       transition: background-color .4s ease, box-shadow .4s ease;
-      background-color: rgba(255, 255, 255, 0) - rgba(255, 255, 255, 0);
+      background-color: rgba(0, 0, 0, 0);// - rgba(255, 255, 255, 0);
       box-shadow: 0 1px .5rem rgba(0,0,0,0);
 
       .logo {
