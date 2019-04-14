@@ -15,7 +15,7 @@
               </stick-transition>
               <div class="text align-self-center">
                   <div class="slogan">Vastgoedontwikkeling</div>
-                  <div class="subslogan">De verbindende factor tussen <b>zorg</b> en <b>vastgoed</b></div>
+                  <div class="subslogan">De verbindende factor tussen <span>zorg</span> en <span>vastgoed</span></div>
                   <div class="call-to-action" hidden>
                     <b-button variant="success" size="lg">Learn more</b-button>
                   </div>
@@ -135,7 +135,7 @@
                   font-family: 'ProximaSoftMark';
                   display: block;
 
-                  font-size: 1.75rem;
+                  font-size: 1.5rem;
                   color: #fff - #526488;
                   transition: transform .2s ease;
                   letter-spacing: 1px;
@@ -149,6 +149,14 @@
 
                   .subslogan {
                       //opacity: 0;
+
+                      span {
+                        font-weight: bold;
+                        position: relative;
+                        color: #ffc107;
+
+
+                      }
                   }
 
                   .call-to-action {
