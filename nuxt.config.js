@@ -33,12 +33,27 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/contentful',
+    '~/plugins/components',
+    '~/plugins/scroll',
+    '~/plugins/stick-transition'
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+    ['nuxt-fontawesome', {
+      component: 'fa',
+      imports: [
+        //import whole set
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        },
+      ]
+    }],
+
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
   ],
@@ -52,5 +67,15 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+
+  generate: {
+    routes: [
+      '/assistance',
+      '/content',
+      '/marketing',
+      '/development',
+      '/events'
+    ]
   }
 }

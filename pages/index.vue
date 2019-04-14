@@ -1,68 +1,63 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        040vastgoedontwikkeling.nl
-      </h1>
-      <h2 class="subtitle">
-        My astonishing Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
-    </div>
-  </section>
+  <div class="index-page">
+    <Intro />
+
+    <section>
+        <b-container class=wrapper>
+          <div class=part>
+            <h1>
+              Wie zijn wij?
+            </h1>
+            <p>
+              O4O vastgoedontwikkeling is als projectontwikkelaar actief in het ontwikkelen van  projecten in Noord-Brabant en dan voornamelijk  in de regio Eindhoven.
+            </p>
+            <p>
+              De focus van O4O Vastgoedontwikkeling ligt op de  ontwikkeling van vastgoed in de zorgsector: wij zijn de verbindende factor tussen zorg en vastgoed.
+            </p>
+            <p>
+              Wij brengen de juiste partijen samen om het optimale resultaat te bereiken voor onze opdrachtgevers en gebruiken hiervoor onze brede kennis en ruime ervaring.
+            </p>
+          </div>
+          <div class=part>
+              <h1>
+                Heeft u vragen?
+              </h1>
+              <p>
+                Heeft u vragen of bent u benieuwd naar de mogelijkheden, dan kunt u contact opnemen met ons via info@040vastgoedontwikkeling.nl
+              </p>
+          </div>
+
+        </b-container>
+    </section>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo2 from "~/components/Logo2.vue";
 
 export default {
   components: {
-    Logo
+    Logo2
   }
-}
+};
 </script>
+<style lang="less">
+  .index-page {
+    h1 {
+      color: darken(#a36b14, 5%);
+      //border-bottom: 1px solid #ffc107;
+    }
+    section {
+      padding: 3rem 0;
+      //padding-bottom: 10rem;
+    }
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+    .wrapper {
+      padding: 0 200px;
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+      .part {
+        padding: 2rem;
+      }
+    }
+  }
 </style>
