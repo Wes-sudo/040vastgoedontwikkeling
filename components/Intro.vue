@@ -1,6 +1,6 @@
 <template>
     <div class="intro" :class="[stateClass, scrollClass]" v-scroll="handleScroll">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="video-container ">
             <video loop muted autoplay poster="img/videoframe.jpg" class="embed-responsive-item">
                 <source src="~/assets/video.mp4" type="video/mp4">
             </video>
@@ -98,9 +98,41 @@
     .intro {
         height: 100vh;
         overflow: hidden;
+        position: relative;
 
         video {
             filter: brightness(1.1);
+        }
+
+        .video-container {
+          width: 100%;
+          min-height: 100%;
+          position: absolute;
+          left: 0px;
+          /* center vertically */
+          top: 50%;
+          -moz-transform: translate(0%, -50%);
+          -ms-transform: translate(0%, -50%);
+          -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+        }
+        .video-container::before {
+          content: "";
+          display: block;
+          height: 0px;
+          padding-bottom: 56.25%; /* 100% * 9 / 16 */
+        }
+        .video-container video {
+          width: auto;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          /* center horizontally */
+          left: 50%;
+          -moz-transform: translate(-50%, 0%);
+          -ms-transform: translate(-50%, 0%);
+          -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
         }
 
         .content {
