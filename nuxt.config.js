@@ -1,5 +1,3 @@
-import pkg from './package'
-
 export default {
   mode: 'universal',
 
@@ -7,14 +5,15 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: '040vastgoedontwikkeling.nl',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: 'Ontwikkelen met zorg.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito&display=swap' }
     ]
   },
 
@@ -43,16 +42,19 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    ['nuxt-fontawesome', {
-      component: 'fa',
-      imports: [
-        //import whole set
-        {
-          set: '@fortawesome/free-solid-svg-icons',
-          icons: ['fas']
-        },
-      ]
-    }],
+    [
+      'nuxt-fontawesome', 
+      {
+        component: 'fa',
+        imports: [
+          //import whole set
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+        ]
+      }
+    ],
 
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
@@ -69,13 +71,4 @@ export default {
     }
   },
 
-  generate: {
-    routes: [
-      '/assistance',
-      '/content',
-      '/marketing',
-      '/development',
-      '/events'
-    ]
-  }
 }
