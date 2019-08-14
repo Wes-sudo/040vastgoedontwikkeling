@@ -13,7 +13,7 @@
                 <br />
                 <p class="h6">
                     <a href="mailto:info@040vastgoedontwikkeling.nl">
-                        <fa class="icon" icon="envelope" />info@040vo.nl
+                        <fa class="icon" icon="envelope" />info@040vastgoedontwikkeling.nl
                     </a>
                 </p>
                 <header>Telefoon</header>

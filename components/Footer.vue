@@ -27,7 +27,7 @@
                         <br />
                         <p class="h6">
                             <a href="mailto:info@040vastgoedontwikkeling.nl">
-                                <fa class="icon" icon="envelope" />info@040vo.nl
+                                <fa class="icon" icon="envelope" />info@040vastgoedontwikkeling.nl
                             </a>
                         </p>
                     </b-col>
@@ -52,7 +52,7 @@
                         <br />
                         <br />
                         <p class="h6">
-                            <a href="https://goo.gl/maps/2y3K33E4vyq" target="_blank">
+                            <a href="https://goo.gl/maps/Dm7YhVkpiqvVKkQeA" target="_blank">
                                 <fa class="icon" icon="map-marker-alt" />Open op Google Maps
                             </a>
                         </p>
