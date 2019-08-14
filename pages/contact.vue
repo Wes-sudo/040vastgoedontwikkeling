@@ -2,7 +2,7 @@
     <b-container style="margin-top: 10rem; margin-bottom: 10rem;">
         <b-row>
             <b-col cols="12">
-                <h1 style="color: #8c5c11;">Contact</h1>
+                <h1>Contact</h1>
             </b-col>
             <b-col>
                 <header>E-mail</header>

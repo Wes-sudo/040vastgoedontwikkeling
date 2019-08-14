@@ -1,12 +1,75 @@
 <template>
     <b-container style="margin-top: 10rem; margin-bottom: 10rem;">
-        <h1 style="color: #8c5c11;">Projecten</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sapien nulla, efficitur id lorem sit amet, tincidunt gravida ipsum. Ut aliquet convallis lacinia. Maecenas auctor, turpis nec feugiat sagittis, neque nulla posuere libero, vel faucibus purus lacus ac orci. Donec vel vestibulum eros, eget vulputate erat. Donec interdum ac quam lacinia tristique. Nulla mattis ipsum et ante luctus, et varius sem posuere. Pellentesque vestibulum sapien nunc, vitae ullamcorper purus gravida ut. Aliquam erat volutpat. Vivamus non posuere nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris tortor, ultrices in mattis eget, interdum eu ex. Suspendisse non augue eget turpis congue tempus sit amet sit amet risus. Vestibulum pulvinar sollicitudin egestas. Ut sed dui ut eros dignissim rutrum vel vitae arcu. Fusce pellentesque, mauris ut lobortis rhoncus, dolor orci eleifend velit, non efficitur augue libero commodo ligula.</p>
+        <b-row>
+            <h1>Projecten</h1>
+        </b-row>
+        <b-row>
+            <b-card no-body class="overflow-hidden mb-3" v-for="project in projects" :key="project.id">
+                <b-row no-gutters>
+                    <b-col md="5">
+                        <b-card-img
+                            :src="require(`~/assets/images/${project.images[0]}`)"
+                            :alt="project.title"
+                            class="rounded-0"
+                            style="object-fit:cover;"
+                        ></b-card-img>
+                    </b-col>
+                    <b-col md="7">
+                        <b-card-body :title="project.title">
+                            <b-card-text>
+                                {{project.content}}
+                            </b-card-text>
+                        </b-card-body>
+                    </b-col>
+                </b-row>
+            </b-card>
+        </b-row>
     </b-container>
 </template>
 
 <script>
 export default {
+    data() {
+        return {
+            projects: [
+                {
+                    id: 0,
+                    slug: 'valkenswaard-rijt',
+                    title: 'Valkenswaard, Rijt  (in ontwikkeling)',
+                    content: 'Samen met de exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan de Rijt in Valkenswaard 25-28 zelfstandige zorgappartementen te ontwikkelen van circa 36 m2 met een gezamenlijke woonkamer van circa 73m2, verdeeld over 2 of 3 bouwlagen. Voldoende parkeerplekken en prachtige tuin zullen aanwezig zijn op eigen terrein.',
+                    images: [
+                        'valkenswaard-rijt-1.png',
+                        'valkenswaard-rijt-2.png',
+                        'valkenswaard-rijt-3.png',
+                        'valkenswaard-rijt-4.png',
+                    ]
+                },
+                {
+                    id: 1,
+                    slug: 'bladel-europalaan',
+                    title: 'Bladel, Europalaan (in ontwikkeling)',
+                    content: 'Samen met de exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan de Europalaan in Bladel 25 zelfstandige luxe zorgappartementen in het centrum te ontwikkelen van circa 50 m2 met een gezamenlijke woonkamer van circa 100m2, verdeeld over 3 bouwlagen. Voldoende parkeerplekken en prachtige tuin zullen aanwezig zijn op eigen terrein.',
+                    images: [
+                        'bladel-europalaan-1.jpg',
+                    ]
+                },
+                {
+                    id: 2,
+                    slug: 'eindhoven-mimosaplein',
+                    title: 'Eindhoven, Mimosaplein (in ontwikkeling)',
+                    content: 'Samen met de ontwikkelaar en exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan de Mimosaplein in Eindhoven 38 zelfstandige luxe zorgappartementen in het centrum te ontwikkelen van circa 36 m2 met een gezamenlijke woonkamer van circa 72m2, verdeeld over 3 bouwlagen. Voldoende parkeerplekken en prachtige tuin zullen aanwezig zijn op eigen terrein. Daarnaast een kerk ontwikkeling van 17 appartementen.',
+                    images: [
+                        'eindhoven-mimosaplein-1.jpg',
+                        'eindhoven-mimosaplein-2.jpg',
+                        'eindhoven-mimosaplein-3.jpg',
+                        'eindhoven-mimosaplein-4.jpg',
+                        'eindhoven-mimosaplein-5.jpg',
+                        'eindhoven-mimosaplein-6.jpg',
+                    ]
+                }
+            ]
+        }
+    }
 };
 </script>
 

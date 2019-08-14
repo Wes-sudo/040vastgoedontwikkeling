@@ -18,7 +18,7 @@
             <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav>
                     <b-nav-item to="/werkwijze">Werkwijze</b-nav-item>
-                    <!-- <b-nav-item to="/projecten">Projecten</b-nav-item> -->
+                    <b-nav-item to="/projecten">Projecten</b-nav-item>
                     <b-nav-item to="/contact">Contact</b-nav-item>
                 </b-navbar-nav>
 

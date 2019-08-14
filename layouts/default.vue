@@ -51,11 +51,7 @@ h4,
 h5,
 h6 {
     font-family: 'Nunito', sans-serif;
-    color: #526488;
-}
-
-h1 {
-    color: #35495e;
+    color: #8c5c11;;
 }
 
 #menu {
