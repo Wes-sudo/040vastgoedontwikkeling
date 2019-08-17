@@ -8,21 +8,34 @@
 
         <div class="content">
             <b-container>
-                <b-row>
-                    <stick-transition
-                        scale
-                        :duration="800"
-                        :transition-duration="500"
-                        easing="ease"
-                        name="move"
-                        ref="stickTransition"
-                    >
-                        <img src="~/assets/logo.png" class="logo" style="opacity: .75;" />
-                    </stick-transition>
-                    <b-col>
+                <stick-transition
+                    scale
+                    :duration="800"
+                    :transition-duration="500"
+                    easing="ease"
+                    name="move"
+                    ref="stickTransition"
+                >
+                    <img src="~/assets/logo.png" class="logo" />
+                </stick-transition>
+                <b-row class="d-none d-md-block">
+                    <b-col sm="12" md="9">
                         <div class="text align-self-center">
-                            <div class="slogan">040Vastgoedontwikkeling</div>
+                            <div class="slogan">040 Vastgoedontwikkeling</div>
                             <div class="subslogan">
+                                Ontwikkelen met
+                                <span>zorg</span>.
+                            </div>
+                        </div>
+                    </b-col>
+                </b-row>
+            </b-container>
+            <b-container>
+                <b-row class="d-md-none d-xs-block">
+                    <b-col sm="12" md="9">
+                        <div class="text align-self-center">
+                            <div class="slogan" style="font-size:1.5rem;">040 Vastgoedontwikkeling</div>
+                            <div class="subslogan" style="font-size:0.7em;">
                                 Ontwikkelen met
                                 <span>zorg</span>.
                             </div>
@@ -150,9 +163,9 @@ export default {
 
         .container {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             align-items: center;
-            text-align: left;
+            text-align: center;
 
             .text {
                 //max-width: 0;
@@ -325,11 +338,5 @@ export default {
         transform: rotate(-45deg) translate(-20px, 20px);
         opacity: 0;
     }
-}
-
-@media (max-width: 768px) {
-  .logo {
-    margin-left: 35vw;
-  }
 }
 </style>
