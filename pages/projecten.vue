@@ -53,20 +53,20 @@ export default {
                         'bladel-europalaan-1.jpg',
                     ]
                 },
-                {
-                    id: 2,
-                    slug: 'eindhoven-mimosaplein',
-                    title: 'Eindhoven, Mimosaplein (in ontwikkeling)',
-                    content: 'Samen met de ontwikkelaar en exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan de Mimosaplein in Eindhoven 38 zelfstandige luxe zorgappartementen in het centrum te ontwikkelen van circa 36 m2 met een gezamenlijke woonkamer van circa 72m2, verdeeld over 3 bouwlagen. Voldoende parkeerplekken en prachtige tuin zullen aanwezig zijn op eigen terrein. Daarnaast een kerk ontwikkeling van 17 appartementen.',
-                    images: [
-                        'eindhoven-mimosaplein-1.jpg',
-                        'eindhoven-mimosaplein-2.jpg',
-                        'eindhoven-mimosaplein-3.jpg',
-                        'eindhoven-mimosaplein-4.jpg',
-                        'eindhoven-mimosaplein-5.jpg',
-                        'eindhoven-mimosaplein-6.jpg',
-                    ]
-                }
+                // {
+                //     id: 2,
+                //     slug: 'eindhoven-mimosaplein',
+                //     title: 'Eindhoven, Mimosaplein (in ontwikkeling)',
+                //     content: 'Samen met de ontwikkelaar en exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan de Mimosaplein in Eindhoven 38 zelfstandige luxe zorgappartementen in het centrum te ontwikkelen van circa 36 m2 met een gezamenlijke woonkamer van circa 72m2, verdeeld over 3 bouwlagen. Voldoende parkeerplekken en prachtige tuin zullen aanwezig zijn op eigen terrein. Daarnaast een kerk ontwikkeling van 17 appartementen.',
+                //     images: [
+                //         'eindhoven-mimosaplein-1.jpg',
+                //         'eindhoven-mimosaplein-2.jpg',
+                //         'eindhoven-mimosaplein-3.jpg',
+                //         'eindhoven-mimosaplein-4.jpg',
+                //         'eindhoven-mimosaplein-5.jpg',
+                //         'eindhoven-mimosaplein-6.jpg',
+                //     ]
+                // }
             ]
         }
     }
