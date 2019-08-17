@@ -21,7 +21,7 @@
                     </stick-transition>
                     <b-col>
                         <div class="text align-self-center">
-                            <div class="slogan">Vastgoedontwikkeling</div>
+                            <div class="slogan">040Vastgoedontwikkeling</div>
                             <div class="subslogan">
                                 Ontwikkelen met
                                 <span>zorg</span>.
@@ -325,5 +325,11 @@ export default {
         transform: rotate(-45deg) translate(-20px, 20px);
         opacity: 0;
     }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 35vw;
+  }
 }
 </style>

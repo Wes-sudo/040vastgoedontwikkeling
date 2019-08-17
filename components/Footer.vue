@@ -17,8 +17,8 @@
                                 <a href="/contact">Contact</a>
                             </li>
                         </ul>
-                    </b-col> -->
-                    <b-col cols="4">
+                    </b-col>-->
+                    <b-col class="footer-column" sm="12" md="4">
                         <header>E-mail</header>
                         <span>Heeft u vragen?</span>
                         <br />
@@ -31,7 +31,7 @@
                             </a>
                         </p>
                     </b-col>
-                    <b-col cols="4">
+                    <b-col class="footer-column" sm="12" md="4">
                         <header>Telefoon</header>
                         <span>Liever bellen?</span>
                         <br />
@@ -44,7 +44,7 @@
                             </a>
                         </p>
                     </b-col>
-                    <b-col cols="4">
+                    <b-col class="footer-column" sm="12" md="4">
                         <header>Adres</header>
                         <span>Stratumsedijk 20</span>
                         <br />
@@ -138,5 +138,10 @@
 
 .icon {
     margin-right: 0.3rem;
+}
+@media (max-width: 768px) {
+  .footer-column {
+    text-align: center;
+  }
 }
 </style>
