@@ -11,7 +11,7 @@
                             :src="require(`~/assets/images/${project.images[0]}`)"
                             :alt="project.title"
                             class="rounded-0"
-                            style="object-fit:cover;"
+                            style="object-fit:cover;height:100%;"
                         ></b-card-img>
                     </b-col>
                     <b-col md="7">
@@ -67,6 +67,24 @@ export default {
                 //         'eindhoven-mimosaplein-6.jpg',
                 //     ]
                 // }
+                {
+                    id: 4,
+                    slug: 'eindhoven-24',
+                    title: 'Eindhoven (in ontwikkeling)',
+                    content: 'Samen met de exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan een prominente locatie in Eindhoven 24 zelfstandige luxe zorgappartementen en 2 penthouses te ontwikkelen van circa 50 - 220 m2 met een gezamenlijke woonkamer van circa 150 m2, verdeeld over 4 en 5 bouwlagen. Voldoende parkeerplekken en prachtige tuin zullen aanwezig zijn op eigen terrein.',
+                    images: [
+                        'eindhoven-24.png',
+                    ]
+                },
+                {
+                    id: 5,
+                    slug: 'bladel-europalaan',
+                    title: 'Nijmegen (in ontwikkeling)',
+                    content: 'Samen met de exploitant is 040 vastgoedontwikkeling BV bezig met de plannen om aan een prachtige locatie aan het water in Nijmegen circa 70 zelfstandige luxe zorgappartementen te ontwikkelen van circa 50 m2 met meerdere gezamenlijke ruimtes van circa 300 m2, verdeeld over 4 bouwlagen. Voldoende parkeerplekken en prachtige grote tuin met aan het water zullen aanwezig zijn op eigen terrein.',
+                    images: [
+                        'nijmegen-1.png',
+                    ]
+                },
             ]
         }
     }

@@ -21,10 +21,10 @@
                 <b-row class="d-none d-md-block">
                     <b-col sm="12" md="9">
                         <div class="text align-self-center">
-                            <div class="slogan">040 Vastgoedontwikkeling</div>
+                            <div class="slogan">040 vastgoedontwikkeling</div>
                             <div class="subslogan">
                                 Ontwikkelen met
-                                <span>zorg</span>.
+                                <b>zorg</b>.
                             </div>
                         </div>
                     </b-col>
@@ -183,7 +183,7 @@ export default {
                 letter-spacing: 1px;
 
                 .slogan {
-                    color: #fff - #35495e;
+                    color: white;
 
                     font-size: 3rem;
                     //opacity: 0;
@@ -191,7 +191,7 @@ export default {
 
                 .subslogan {
                     //opacity: 0;
-
+                    color: white;
                     span {
                         font-weight: bold;
                         position: relative;

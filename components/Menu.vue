@@ -20,9 +20,14 @@
                     <b-nav-item to="/werkwijze">Werkwijze</b-nav-item>
                     <b-nav-item to="/projecten">Projecten</b-nav-item>
                     <b-nav-item to="/contact">Contact</b-nav-item>
+                    <b-nav-item to="/contact">
+                        <b-button class="d-md-none" variant="warning">
+                            <fa class="icon" icon="phone" />Neem contact op
+                        </b-button>
+                    </b-nav-item>
                 </b-navbar-nav>
 
-                <b-navbar-nav class="ml-auto align-items-center">
+                <b-navbar-nav class="ml-auto d-none d-md-block align-items-center">
                     <b-nav-item to="/contact">
                         <b-button variant="warning">
                             <fa class="icon" icon="phone" />Neem contact op
@@ -61,7 +66,7 @@ export default {
     }
 }
 </script>
-<style lang="less">
+<style lang="less" scoped>
 #menu {
     &.solid {
         transition: box-shadow 0.4s ease; //background-color .4s ease,
@@ -80,11 +85,6 @@ export default {
 
         .logo {
             opacity: 0;
-        }
-
-        .navbar-nav:first-child {
-            transition: transform 0.2s ease;
-            transform: translateX(-76px);
         }
 
         &.scrolling {
