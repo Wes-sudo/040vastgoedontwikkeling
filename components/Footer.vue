@@ -40,7 +40,7 @@
                         <br />
                         <p class="h6">
                             <a href="tel:+31850027569">
-                                <fa class="icon" icon="phone" />085 002 7569
+                                <fa class="icon" icon="phone" />+31(0)85 002 7569
                             </a>
                         </p>
                     </b-col>
