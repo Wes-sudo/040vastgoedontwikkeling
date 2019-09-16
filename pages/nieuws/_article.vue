@@ -14,7 +14,7 @@
                 </span>
                 <span
                     style="font-weight: 400;"
-                >Wij zoeken een parttime allround secretaresse (v) voor langere periode. In deze uitdagende en veelzijdige functie ben je de rechterhand voor de eigenaar. Je houdt de administratie/boekhouding bij, bent verantwoordelijk voor commerci&euml;le activiteiten en doet alle voorkomende werkzaamheden op kantoor zoals HR en IT. Je bent een echte spin-in-het-web, hebt een pro-actieve houding, bent secuur en kan goed zelfstanding werken. Wij zijn direct en verwachten dit ook van jou.</span>
+                >Wij zoeken een parttime allround secretaresse (v) voor langere periode. In deze uitdagende en veelzijdige functie ben je de rechterhand voor de eigenaar. Je houdt de administratie/boekhouding bij, bent verantwoordelijk voor commerciële activiteiten en doet alle voorkomende werkzaamheden op kantoor zoals HR en IT. Je bent een echte spin-in-het-web, hebt een pro-actieve houding, bent secuur en kan goed zelfstanding werken. Wij zijn direct en verwachten dit ook van jou.</span>
             </p>
             <p>
                 <span
