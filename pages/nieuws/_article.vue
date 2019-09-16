@@ -51,14 +51,6 @@
                     >info@040vastgoedontwikkeling.nl</a>.
                 </span>
             </p>
-            <p>
-                <span style="font-weight: 400;">
-                    Wil je meer weten over deze functie? Neem dan contact op met Eric Mierop via telefoonnummer
-                    <a
-                        href="tel:+31850027569"
-                    >085-002 7569</a>.
-                </span>
-            </p>
         </b-row>
     </b-container>
 </template>
