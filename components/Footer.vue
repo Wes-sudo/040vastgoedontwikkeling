@@ -39,7 +39,7 @@
                         <br />
                         <br />
                         <p class="h6">
-                            <a href="tel:+31850027568">
+                            <a href="tel:+31403098003">
                                 <fa class="icon" icon="phone" />+31(0)40-3098 003
                             </a>
                         </p>
