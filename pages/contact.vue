@@ -30,9 +30,9 @@
             </b-col>
             <b-col>
                 <header>Adres</header>
-                <span>Stratumsedijk 20</span>
+                <span>Fellenoord 222</span>
                 <br />
-                <span>5611 ND Eindhoven</span>
+                <span>5611 ZC Eindhoven</span>
                 <br />
                 <br />
                 <span>Postbus 1416</span>

@@ -46,9 +46,9 @@
                     </b-col>
                     <b-col class="footer-column" sm="12" md="4">
                         <header>Adres</header>
-                        <span>Stratumsedijk 20</span>
+                        <span>Fellenoord 222</span>
                         <br />
-                        <span>5611 ND Eindhoven</span>
+                        <span>5611 ZC Eindhoven</span>
                         <br />
                         <br />
                         <p class="h6">
