@@ -39,7 +39,13 @@ export default {
                     slug: 'vacature-projectontwikkelaar',
                     title: 'Projectontwikkelaar',
                     content: 'Je begeleidt het de hele ontwikkeling, van concept, vergunningsaanvraag tot de realisatie van het project.Je onderhoudt het contact met alle betrokken partijen, van de gemeente, architect, aannemer tot aan de eindgebruiker.',
-                }
+                },
+                {
+                    id: 2,
+                    slug: 'vacature-stagiaire',
+                    title: 'Stagiaire',
+                    content: 'Wij zoeken een fulltime stagiaire (m/v) voor minimaal 6 maanden. In deze uitdagende en veelzijdige stage beleef en werk je mee aan alle facetten van het ontwikkelen. Daarnaast krijg je voldoende tijd om aan je opdrachten te werken voor school. Indien de school eist om een onderzoek te uit te voeren tijdens de stage, dan is onze voorkeur om dit in lijn te doen van onze organisatie.',
+                },
             ]
         }
     }
