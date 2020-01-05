@@ -19,7 +19,7 @@
                 <b-navbar-nav>
                     <b-nav-item to="/werkwijze">Werkwijze</b-nav-item>
                     <b-nav-item to="/projecten">Projecten</b-nav-item>
-                    <b-nav-item to="/nieuws">Nieuws</b-nav-item>
+                    <b-nav-item to="/vacatures">Vacatures</b-nav-item>
                     <b-nav-item to="/contact">Contact</b-nav-item>
                     <b-nav-item to="/contact">
                         <b-button class="d-md-none" variant="warning">
