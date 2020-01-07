@@ -52,7 +52,7 @@
                         <br />
                         <br />
                         <p class="h6">
-                            <a href="https://goo.gl/maps/Dm7YhVkpiqvVKkQeA" target="_blank">
+                            <a href="https://goo.gl/maps/mRvwRqFyub28yVFeA" target="_blank">
                                 <fa class="icon" icon="map-marker-alt" />Open op Google Maps
                             </a>
                         </p>
