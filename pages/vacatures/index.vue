@@ -29,12 +29,6 @@ export default {
         return {
             news: [
                 {
-                    id: 0,
-                    slug: 'vacature-parttime-allround-secretaresse',
-                    title: 'Parttime Allround Secretaress',
-                    content: 'Wij zoeken een parttime allround secretaresse (v) voor langere periode. In deze uitdagende en veelzijdige functie ben je de rechterhand voor de eigenaar. Je houdt de administratie/boekhouding bij, bent verantwoordelijk voor commerciële activiteiten en doet alle voorkomende werkzaamheden op kantoor zoals Inkoop, HR, IT en website. Opstellen van koopovereenkomsten en intentieverklaringen. Ontvangst van gasten, zoals klanten, beleggers, bouwers, ontwikkelaars en adviseurs op kantoor, alsmede direct contact voor mogelijk lopende zaken. Je bent een echte spin-in-het-web, hebt een pro-actieve houding, bent secuur en kan goed zelfstanding werken. Wij zijn direct en flexibel en verwachten dit ook van jou.',
-                },
-                {
                     id: 1,
                     slug: 'vacature-projectontwikkelaar',
                     title: 'Projectontwikkelaar',
