@@ -30,18 +30,15 @@
             </b-col>
             <b-col>
                 <header>Adres</header>
-                <span>Fellenoord 222</span>
+                <span>Frederiklaan 10A</span>
                 <br />
-                <span>5611 ZC Eindhoven</span>
+                <span>5616 NH Eindhoven</span>
                 <br />
-                <br />
-                <span>Postbus 1416</span>
-                <br />
-                <span>5602 BK Eindhoven</span>
+                <span>Philips stadion | zuidoost-vleugel | ingang 12</span>
                 <br />
                 <br />
                 <p class="h6">
-                    <a href="https://goo.gl/maps/mRvwRqFyub28yVFeA" target="_blank">
+                    <a href="https://goo.gl/maps/rgH9xQpHQGZi16WQ8" target="_blank">
                         <fa class="icon" icon="map-marker-alt" />Open op Google Maps
                     </a>
                 </p>
