@@ -19,6 +19,9 @@
                     </b-col>
                 </b-row>
             </b-container>
+            <b-container>
+                <a href="https://lumifund.io"><img border="0" alt="lumifund" src="~/assets/images/lumifund_300x300.gif" width="120" height="120"></a>
+            </b-container>
         </section>
     </div>
 </template>
