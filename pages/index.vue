@@ -15,7 +15,7 @@
                 <b-row align-h="center">
                     <b-col cols="8">
                         <h1>Heeft u vragen?</h1>
-                        <p>Heeft u vragen of bent u benieuwd naar de mogelijkheden? Dan kunt u contact opnemen met ons via info@040vastgoedontwikkeling.nl</p>
+                        <p>Heeft u vragen of bent u benieuwd naar de mogelijkheden, dan kunt u contact opnemen met ons via info@040vastgoedontwikkeling.nl</p>
                     </b-col>
                 </b-row>
             </b-container>
